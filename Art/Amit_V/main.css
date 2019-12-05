@@ -1,0 +1,32 @@
+body{
+	display: grid;
+	align-content: center;
+	justify-items: center;
+	text-align: center;
+	background-color: rgba(130,150,244,0.5);
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.circle{
+	margin-top: 250px;
+	height: 30px;
+	width: 30px;
+	border-style: solid;
+	border-radius: 50%;
+	border-color: grey;
+	background-color: transparent;
+	border-width: 5px;
+	text-align: center;
+	border-top-color: rgba(100,100,100,1);
+	animation: rotation 1s infinite linear;
+}
+.text{
+	padding-top: 4px;
+	font-size: 22px;
+}
